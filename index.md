@@ -4,6 +4,11 @@
 
 <iframe src="https://victoriabeckley.github.io/prop13/assessed_chart.html" width="100%" height="400" title="Assessed Home Value by Neighborhood"></iframe>
 
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 11.54.05 AM.png" alt="Difference">
+
+<iframe src="https://victoriabeckley.github.io/prop13/difference.html" width="100%" height="400" title="Assessed Home Value by Neighborhood"></iframe>
+
 You can use the [editor on GitHub](https://github.com/victoriabeckley/prop13/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
