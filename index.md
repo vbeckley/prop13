@@ -1,8 +1,8 @@
 ## Welcome to GitHub Pages
 
-<iframe src="http://localhost:8889/view/Documents/Cal/Spring22/255/data/assessed_map.html" title="Assessed Home Value 2019"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/zillow_chart.html" width="100%" height="400" title="Zillow Market Rate Home Value Estimate by Neighborhood"></iframe>
 
-<iframe src="https://victoriabeckley.github.io/prop13/assessed_chart.html" title="Assessed Home Value by Neighborhood"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/assessed_chart.html" width="100%" height="400" title="Assessed Home Value by Neighborhood"></iframe>
 
 You can use the [editor on GitHub](https://github.com/victoriabeckley/prop13/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
