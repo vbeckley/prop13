@@ -13,6 +13,7 @@ This can result in properties like the one below where the property taxes paid a
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home" style="width:150px;height:150px;">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map" style="width:450px;height:200px;">
+
 <a href="https://projects.scpr.org/prop-13/">Project from NPR, 2018</a>
 
 ### Questions
@@ -24,26 +25,39 @@ This can result in properties like the one below where the property taxes paid a
   <li>Does prop 13 challenge local governments’ ability to have accurate home value data?</li>  
 </ul>
 
-### Analysis
+### Analysis by Neighborhood
 
 <iframe src="https://victoriabeckley.github.io/prop13/zillow_chart.html" width="100%" height=500 title="Zillow Market Rate Home Value Estimate by Neighborhood"></iframe>
 This chart shows <a href="https://www.zillow.com/research/data/">Zillow's Market Rate Estimate</a> of the "Typical Home Value" by neighborhood in San Francisco by month from 2000 to 2022. This helps us see the large discrepancy across neighborhoods in the city.
 
+
 <iframe src="https://victoriabeckley.github.io/prop13/assessed_chart.html" width="100%" height=500 title="Assessed Home Value by Neighborhood"></iframe>
 This chart shows us the assessed home value averaged by neighborhood in San Francisco from 2007 to 2019. This helps us see how the values increase at the consumer price index instead of market rates. We again see a large discrepancy across neighborhoods.
+
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 11.54.05 AM.png" alt="Difference">
 Here we see the two charts combined to show the difference by neighborhood between market rate and assessed home value. This is our best attempt to generate a "tax subsidy" based on Prop 13.
 
+
 <img src="https://victoriabeckley.github.io/prop13/Screen%20Shot%202022-05-09%20at%2011.55.20%20AM.png" alt="Presidio Heights">
 Some neighborhoods benefit more than others from this tax subsidy. Presidio Heights is the most egregious example of this due to the combination of high home values, averaging 4.9 million in 2019, and long term homeownership making average assessed home values in 2019 only 1.8 million. This creates an average subsidy in Presidio Heights of 3.1 million in 2019.
+
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 11.55.13 AM.png" alt="The Tenderloin">
 Meanwhile the Tenderloin experienced a very different experience in this same time in which the assessed value tended to be higher than the Zillow estimate home value. Here the home value estimate in 2019 averaged $819,000, while the assessed value was an average of 1 million, somehow creating a negative average subsidy!
 
+
 <iframe src="https://victoriabeckley.github.io/prop13/difference.html" width="100%" height=500 title="Assessed Home Value by Neighborhood"></iframe>
 Here we see that tax subsidy by neighborhood to see that some neighborhoods benefit disproportionately more than others, with Presidio Heights and Cow Hollow way above all other neighborhoods in the city.
 
+
+### Analysis by Blockgroup
+
+<iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=500 title="assessed value by Blockgroup 2019"></iframe>
+
+<iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=500 title="ACS Home Value by Blockgroup 2019"></iframe>
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 9.54.07 AM.png" alt="assessed v market estimate home value by blockgroup">
 
 
 ### Data Sources
