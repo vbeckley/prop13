@@ -12,7 +12,7 @@ As a result property taxes increase at the Consumer Price Index each year, while
 This can result in properties like the one below where the property taxes paid are much less than 1% of the actual home value.
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home" style="width:150px;height:150px;">
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map" style="width:600px;height:200px;">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map" style="width:500px;height:200px;">
 <a href="https://projects.scpr.org/prop-13/">Project from NPR, 2018</a>
 
 ### Questions
