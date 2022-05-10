@@ -22,61 +22,75 @@ As a result property taxes increase at the Consumer Price Index each year, while
 ### Analysis by Neighborhood
 
 <iframe src="https://victoriabeckley.github.io/prop13/zillow_chart.html" width="100%" height=500 title="Zillow Market Rate Home Value Estimate by Neighborhood"></iframe>
-This chart shows <a href="https://www.zillow.com/research/data/">Zillow's Market Rate Estimate</a> of the "Typical Home Value" by neighborhood in San Francisco by month from 2000 to 2022. This helps us see the large discrepancy across neighborhoods in the city.
+  This chart shows <a href="https://www.zillow.com/research/data/">Zillow's Market Rate Estimate</a> of the "Typical Home Value" by neighborhood in San Francisco by month from 2000 to 2022. This helps us see the large discrepancy across neighborhoods in the city.
+
 
 
 <iframe src="https://victoriabeckley.github.io/prop13/assessed_chart.html" width="100%" height=500 title="Assessed Home Value by Neighborhood"></iframe>
-This chart shows us the assessed home value averaged by neighborhood in San Francisco from 2007 to 2019. This helps us see how the values increase at the consumer price index instead of market rates. We again see a large discrepancy across neighborhoods.
+  This chart uses data from the San Francisco Assessor's Office to show the assessed home value averaged by neighborhood from 2007 to 2019. This helps show how the values increase at the consumer price index instead of market rates. We again see a large discrepancy across neighborhoods.
+
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 11.54.05 AM.png" alt="Difference">
-Here we see the two charts combined to show the difference by neighborhood between market rate and assessed home value. This is our best attempt to generate a "tax subsidy" based on Prop 13.
+  This chart combines the two charts above to show the difference by neighborhood between market rate and assessed home value. This is our best attempt to generate a "tax subsidy" based on Prop 13.
+
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen%20Shot%202022-05-09%20at%2011.55.20%20AM.png" alt="Presidio Heights">
-Some neighborhoods benefit more than others from this tax subsidy. Presidio Heights is the most egregious example of this due to the combination of high home values, averaging 4.9 million in 2019, and long term homeownership making average assessed home values in 2019 only 1.8 million. This creates an average subsidy in Presidio Heights of 3.1 million in 2019.
+  Some neighborhoods benefit more than others from this tax subsidy. Presidio Heights is the most egregious example of this due to the combination of high home values, averaging 4.9 million in 2019, and long term homeownership making average assessed home values in 2019 only $1.8 million. This creates an average subsidy in Presidio Heights of $3.1 million in 2019.
+
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 11.55.13 AM.png" alt="The Tenderloin">
-Meanwhile the Tenderloin experienced a very different experience in this same time in which the assessed value tended to be higher than the Zillow estimate home value. Here the home value estimate in 2019 averaged $819,000, while the assessed value was an average of 1 million, somehow creating a negative average subsidy!
+  Meanwhile the Tenderloin experienced a very different experience in this same time in which the assessed value tended to be higher than the Zillow estimate home value. In the Tenderloin the home value estimate in 2019 averaged $819,000, while the assessed value was an average of $1 million, somehow creating a negative average subsidy!
+
 
 
 <iframe src="https://victoriabeckley.github.io/prop13/difference.html" width="100%" height=500 title="Assessed Home Value by Neighborhood"></iframe>
-Here we see that tax subsidy by neighborhood to see that some neighborhoods benefit disproportionately more than others, with Presidio Heights and Cow Hollow way above all other neighborhoods in the city.
+  Here we see that tax subsidy by neighborhood to see that some neighborhoods benefit disproportionately more than others, with Presidio Heights and Cow Hollow way above all other neighborhoods in the city.
+
 
 
 ### Analysis by Blockgroup
 
 The assessor's office values can be summarized at the blockgroup level to compare with American Community Survey home value estimates. 
 
+
 <iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=800 title="assessed value by Blockgroup 2019"></iframe>
-This chart shows the assessed values average by blockgroup across the city. High values are concentrated in the northern part of the city and low values are concentrated in the southeast part of the city.
+  This chart shows the assessed values average by blockgroup across the city. High values are concentrated in the northern part of the city and low values are concentrated in the southeast part of the city.
+
 
 
 <iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=800 title="ACS Home Value by Blockgroup 2019"></iframe>
-This chart shows the American Community Survey 2019 home value estimates (as reported by home owners in owner occupied housing). A similar distribution trend occurs as above, but with overall higher values as these better represent market rates.
+  This chart shows the American Community Survey 2019 home value estimates (as reported by home owners in owner occupied housing). A similar distribution trend occurs as above, but with overall higher values as these better represent market rates.
 
 Note how many blockgroups are at 2+ million - the ACS dataset does not record values over two million, creating an artificially low value for blockgroups in an expensive housing market like San Francisco.
 
 
+
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 9.54.07 AM.png" alt="assessed v market estimate home value by blockgroup">
-Here we see a comparison of assessed value and ACS market rate home values. This shows the difference and again gets at that tax subsidy amount. Note that the ACS data caps out at 2 million, which explains why so many blockgroups have that value.
+  Here we see a comparison of assessed value and ACS market rate home values. This shows the difference and again gets at that tax subsidy amount. Note that the ACS data caps out at 2 million, which explains why so many blockgroups have that value.
 
 
-Subtracting the assessed value from the market rate value creates the "tax subsidy" provided by Prop 13, which is the amount of home value that property taxes are not being paid for. The tax subsidy should increase as values increase, but the below regressions actually show an inverse relationship between subsidy and assessed value.
+  Subtracting the assessed value from the market rate value creates the "tax subsidy" provided by Prop 13, which is the amount of home value that property taxes are not being paid for. The tax subsidy should increase as values increase, but the below regressions actually show an inverse relationship between subsidy and assessed value.
+
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.59.11 AM.png" alt="tax subsidy by blockgroup">
-Here is the distribution of tax subsidy across blockgroups. The mean is $400,000, max is 1.5 million, and the minimum is -$2.0 million. With negative values removed the mean becomes $450,000.
+  This chart shows the distribution of tax subsidy across blockgroups. The mean is $400,000, max is 1.5 million, and the minimum is -$2.0 million. With negative values removed the mean becomes $450,000.
+
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.22 AM.png" alt="assessed v market estimate home value by blockgroup">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.25 AM.png" alt="market estimate home value v tax subsidy by blockgroup">
-The market value and the subsidy have a positive correlation with an increase of .3 million in market value for every 1 million increase in assessed value (with an adjusted R-sqaured of .7). This aligns with the relationship between market value and assessed value, which sees an increase of .6 million in market value for every 1 million increase in assessed value (adj R-sqaured .9).
+
+  The market value and the subsidy have a positive correlation with an increase of .3 million in market value for every 1 million increase in assessed value (with an adjusted R-sqaured of .7). This aligns with the relationship between market value and assessed value, which sees an increase of .6 million in market value for every 1 million increase in assessed value (adj R-sqaured .9).
+
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.36 AM.png" alt="assessed v market estimate home value by blockgroup">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.17 AM.png" alt="assessed v tax subsidy by blockgroup">
-The assessed value, however, has a negative correlation with the tax subsidy, indicating that as the assessed value increases the tax subsidy decreases. Surprising. The regression shows us that for every 1 million increase in tax subsidy the assessed value increases .4 million, which does not align with our line of regression plotted here (adj R-squared .4).
+
+  The assessed value, however, has a negative correlation with the tax subsidy, indicating that as the assessed value increases the tax subsidy decreases. Surprising. The regression shows us that for every 1 million increase in tax subsidy the assessed value increases .4 million, which does not align with our line of regression plotted here (adj R-squared .4).
 For every 1 million the market value increases, the assessed value increases 1.4 million (adj R-squared .9).
 
 
