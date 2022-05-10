@@ -1,7 +1,5 @@
-### Victoria Beckley
-### Spring 2022
-
 ## California Proposition 13
+
 ### Background
 
 Prop 13 was established in California in 1978 with the intention to protect homeowners from paying too high of property taxes as statewide home values increased at a rapid rate.
@@ -48,7 +46,7 @@ As a result property taxes increase at the Consumer Price Index each year, while
 <br> 
 
 <iframe src="https://victoriabeckley.github.io/prop13/difference.html" width="100%" height=500 title="Assessed Home Value by Neighborhood"></iframe>
-&emsp;Here we see that tax subsidy by neighborhood to see that some neighborhoods benefit disproportionately more than others, with Presidio Heights and Cow Hollow way above all other neighborhoods in the city.
+&emsp;Here the tax subsidy by neighborhood shows that some neighborhoods benefit disproportionately more than others, with Presidio Heights and Cow Hollow way above all other neighborhoods in the city.
 
 <br> 
 
@@ -85,7 +83,7 @@ Note how many blockgroups are at 2+ million - the ACS dataset does not record va
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.22 AM.png" alt="assessed v market estimate home value by blockgroup">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.25 AM.png" alt="market estimate home value v tax subsidy by blockgroup">
 
-&emsp;The market value and the subsidy have a positive correlation with an increase of .3 million in market value for every 1 million increase in assessed value (with an adjusted R-sqaured of .7). This aligns with the relationship between market value and assessed value, which sees an increase of .6 million in market value for every 1 million increase in assessed value (adj R-sqaured .9).
+&emsp;The market value and the subsidy have a positive correlation with an increase of .3 million in market value for every 1 million increase in assessed value (with an adjusted R-squared of .7). This aligns with the relationship between market value and assessed value, which sees an increase of .6 million in market value for every 1 million increase in assessed value (adj R-squared .9).
 <br> 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.36 AM.png" alt="assessed v market estimate home value by blockgroup">
