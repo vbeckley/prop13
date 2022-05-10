@@ -67,15 +67,16 @@ Subtracting the assessed value from the market rate value creates the "tax subsi
 
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.59.11 AM.png" alt="tax subsidy by blockgroup">
-Here is the distribution of tax subsidy across blockgroups.
+Here is the distribution of tax subsidy across blockgroups. The mean is $400,000, max is 1.5 million, and the minimum is -$2.0 million. With negative values removed the mean becomes $450,000.
 
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.22 AM.png" alt="assessed v market estimate home value by blockgroup">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.25 AM.png" alt="market estimate home value v tax subsidy by blockgroup">
+The market value and the subsidy have a positive correlation with an increase of .3 million in market value for every 1 million increase in assessed value (with an adjusted R-sqaured of .7). This aligns with the relationship between market value and assessed value, which sees an increase of .6 million in market value for every 1 million increase in assessed value (adj R-sqaured .9).
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.36 AM.png" alt="assessed v market estimate home value by blockgroup">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.17 AM.png" alt="assessed v tax subsidy by blockgroup">
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 11.11.05 AM.png" alt="assessed v market estimate home value by blockgroup">
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.25 AM.png" alt="market estimate home value v tax subsidy by blockgroup">
-
-
+The assessed value, however, has a negative correlation with the tax subsidy, indicating that 
 
 
 
