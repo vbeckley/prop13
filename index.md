@@ -10,8 +10,9 @@ In San Francisco the current property tax rate is 1.18%
 As a result property taxes increase at the Consumer Price Index each year, while home values, especially in San Francisco, increase at a rate closer to 6% a year.
 
 This can result in properties like the one below where the property taxes paid are much less than 1% of the actual home value.
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home">
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map">
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home" style="width:150px;height:150px;">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map" style="width:400px;height:400px;">
 <a href="https://projects.scpr.org/prop-13/">Project from NPR, 2018</a>
 
 ### Questions
