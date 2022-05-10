@@ -56,12 +56,12 @@ As a result property taxes increase at the Consumer Price Index each year, while
 The assessor's office values can be summarized at the blockgroup level to compare with American Community Survey home value estimates. 
 
 
-<iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=800 title="assessed value by Blockgroup 2019"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=600 title="assessed value by Blockgroup 2019"></iframe>
   This chart shows the assessed values average by blockgroup across the city. High values are concentrated in the northern part of the city and low values are concentrated in the southeast part of the city.
 
 
 
-<iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=800 title="ACS Home Value by Blockgroup 2019"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="110%" height=800 title="ACS Home Value by Blockgroup 2019"></iframe>
   This chart shows the American Community Survey 2019 home value estimates (as reported by home owners in owner occupied housing). A similar distribution trend occurs as above, but with overall higher values as these better represent market rates.
 
 Note how many blockgroups are at 2+ million - the ACS dataset does not record values over two million, creating an artificially low value for blockgroups in an expensive housing market like San Francisco.
