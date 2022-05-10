@@ -9,12 +9,6 @@ In San Francisco the current property tax rate is 1.18%
 
 As a result property taxes increase at the Consumer Price Index each year, while home values, especially in San Francisco, increase at a rate closer to 6% a year.
 
-This can result in properties like the one below where the property taxes paid are much less than 1% of the actual home value.
-
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home" style="width:150px;height:150px;">
-<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map" style="width:450px;height:200px;">
-
-<a href="https://projects.scpr.org/prop-13/">Project from NPR, 2018</a>
 
 ### Questions
 
@@ -55,11 +49,11 @@ Here we see that tax subsidy by neighborhood to see that some neighborhoods bene
 
 The assessor's office values can be summarized at the blockgroup level to compare with American Community Survey home value estimates. 
 
-<iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=500 title="assessed value by Blockgroup 2019"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" title="assessed value by Blockgroup 2019"></iframe>
 This chart shows the assessed values average by blockgroup across the city. High values are concentrated in the northern part of the city and low values are concentrated in the southeast part of the city.
 
 
-<iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=500 title="ACS Home Value by Blockgroup 2019"></iframe>
+<iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=700 title="ACS Home Value by Blockgroup 2019"></iframe>
 This chart shows the American Community Survey 2019 home value estimates (as reported by home owners in owner occupied housing). A similar distribution trend occurs as above, but with overall higher values as these better represent market rates.
 
 
