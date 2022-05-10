@@ -53,11 +53,18 @@ Here we see that tax subsidy by neighborhood to see that some neighborhoods bene
 
 ### Analysis by Blockgroup
 
+The assessor's office values can be summarized at the blockgroup level to compare with American Community Survey home value estimates. 
+
 <iframe src="https://victoriabeckley.github.io/prop13/assessed_map.html" width="100%" height=500 title="assessed value by Blockgroup 2019"></iframe>
+This chart shows the assessed values average by blockgroup across the city. High values are concentrated in the northern part of the city and low values are concentrated in the southeast part of the city.
+
 
 <iframe src="https://victoriabeckley.github.io/prop13/acs_by_bg.html" width="100%" height=500 title="ACS Home Value by Blockgroup 2019"></iframe>
+This chart shows the American Community Survey 2019 home value estimates (as reported by home owners in owner occupied housing). A similar distribution trend occurs as above, but with overall higher values as these better represent market rates.
+
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 9.54.07 AM.png" alt="assessed v market estimate home value by blockgroup">
+Here we see a comparison of assessed value and ACS market rate home values. This shows the difference and again gets at that tax subsidy amount. Note that the ACS data caps out at 2 million, which explains why so many blockgroups have that value.
 
 
 ### Data Sources
