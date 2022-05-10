@@ -63,6 +63,21 @@ Note how many blockgroups are at 2+ million - the ACS dataset does not record va
 Here we see a comparison of assessed value and ACS market rate home values. This shows the difference and again gets at that tax subsidy amount. Note that the ACS data caps out at 2 million, which explains why so many blockgroups have that value.
 
 
+Subtracting the assessed value from the market rate value creates the "tax subsidy" provided by Prop 13, which is the amount of home value that property taxes are not being paid for. The tax subsidy should increase as values increase, but the below regressions actually show an inverse relationship between subsidy and assessed value.
+
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.59.11 AM.png" alt="tax subsidy by blockgroup">
+Here is the distribution of tax subsidy across blockgroups.
+
+
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.36 AM.png" alt="assessed v market estimate home value by blockgroup">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.17 AM.png" alt="assessed v tax subsidy by blockgroup">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 11.11.05 AM.png" alt="assessed v market estimate home value by blockgroup">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.25 AM.png" alt="market estimate home value v tax subsidy by blockgroup">
+
+
+
+
 
 ### Data Sources
 
