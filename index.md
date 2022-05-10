@@ -76,7 +76,8 @@ The market value and the subsidy have a positive correlation with an increase of
 
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.36 AM.png" alt="assessed v market estimate home value by blockgroup">
 <img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-10 at 10.58.17 AM.png" alt="assessed v tax subsidy by blockgroup">
-The assessed value, however, has a negative correlation with the tax subsidy, indicating that 
+The assessed value, however, has a negative correlation with the tax subsidy, indicating that as the assessed value increases the tax subsidy decreases. Surprising. The regression shows us that for every 1 million increase in tax subsidy the assessed value increases .4 million, which does not align with our line of regression plotted here (adj R-squared .4).
+For every 1 million the market value increases, the assessed value increases 1.4 million (adj R-squared .9).
 
 
 
