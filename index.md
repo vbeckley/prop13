@@ -9,8 +9,9 @@ In San Francisco the current property tax rate is 1.18%
 
 As a result property taxes increase at the Consumer Price Index each year, while home values, especially in San Francisco, increase at a rate closer to 6% a year.
 
-This can result in properties like the one below where the property taxes paid are much less than 1% of the actual home value
-
+This can result in properties like the one below where the property taxes paid are much less than 1% of the actual home value.
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.21 PM.png" alt="Sample Home">
+<img src="https://victoriabeckley.github.io/prop13/Screen Shot 2022-05-09 at 10.43.37 PM.png" alt="NPR Map">
 <a href="https://projects.scpr.org/prop-13/">Project from NPR, 2018</a>
 
 ### Questions
@@ -52,33 +53,3 @@ Here we see that tax subsidy by neighborhood to see that some neighborhoods bene
   <li><a href="https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns">SF Realtor Neighborhoods:</a> GEOJSON - polygons</li>
   <li><a href="https://data.census.gov/cedsci/table?q=B25077%3A%20MEDIAN%20VALUE%20%28DOLLARS%29&g=0500000US06075%241500000&y=2019&tid=ACSDT5Y2019.B25077">ACS MEDIAN VALUE DOLLARS (Table B25077):</a> CSV - by blockgroup</li>
 </ul>
-
-You can use the [editor on GitHub](https://github.com/victoriabeckley/prop13/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-
